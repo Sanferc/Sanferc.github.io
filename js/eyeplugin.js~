@@ -1,19 +1,11 @@
 $(document).ready(function(){
 
-   /* $(".bob").mouseleave(function(){
-        $(".foto3").prependTo(".bob ul");
-    }); */
-
     $(".bob").mouseenter(function(){
 
         $(".bob").mousemove(function(e) {
 
             var x = (e.clientX/10);
             var y = (e.clientY/10);
-            console.log("Valor de x " + x);
-            console.log("Valor de y " + y);
-
-
  
             switch (true) {
 
